@@ -7,6 +7,10 @@ android {
     namespace 'com.example.outsideintddexample'
     compileSdk 33
 
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+
     defaultConfig {
         applicationId "com.example.outsideintddexample"
         minSdk 21
